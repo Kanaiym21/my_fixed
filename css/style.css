@@ -87,27 +87,38 @@ article figure {
   float: right;
 }
 article figcaption {
-  font-size: inherit;
+  font-size: 1.45rem;
+  margin: auto;
+  font-weight: lighter;
+  font-family:Arial, Helvetica, sans-serif;
 }
 .pagination {
   margin-top: 2em;
   margin-bottom: 2em;
   width: 96%;
+  display: flex;
+  justify-content: space-evenly;
 }
 a.button {
-  border: 2px solid #C3F8FF;
+  border: 2px solid #254347;
   padding: .4em 1em .4em 1em;
   text-decoration: none;
-  color: #444;
-  border-radius: 200px;
+  color: #fff;
+  border-radius: 6px;
+  background-color: #254347;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 a.button:hover, a.button:active {
-  border: 1px solid #C3F8FF;
+  border: 2px solid #668d92;
+  background-color:#668d92;
   text-decoration: none;
-  color: #C3F8FF;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
